@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Loops {
-    public static void dividing(){
+    public static String dividing(){
         //loops
         String answer="";
         Scanner scanner= new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Loops {
             if (number % 3 == 0 && number % 5 == 0) answer = "BuzzFizz";
             System.out.println(answer);
         }
-
+return answer;
     }
     public static String inputCheck(){
         // WHILE loop
